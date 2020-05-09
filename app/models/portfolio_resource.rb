@@ -1,2 +1,0 @@
-class PortfolioResource < ApplicationRecord
-end
