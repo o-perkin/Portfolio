@@ -38,16 +38,6 @@ ActiveRecord::Schema.define(version: 20200511135756) do
     t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id", using: :btree
   end
 
-  create_table "portfolio_resources", force: :cascade do |t|
-    t.string   "title"
-    t.string   "subtitle"
-    t.text     "body"
-    t.text     "main_image"
-    t.text     "thumb_image"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
-
   create_table "portfols", force: :cascade do |t|
     t.string   "title"
     t.string   "subtitle"
