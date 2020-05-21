@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: 'source-greeting')
     end
   end
+
+  def copyright_generator
+    PerkinViewTool::Renderer.copyright 'Alex Perkin', 'All rights reserved'
+  end
 end
