@@ -3,7 +3,7 @@ class PortfolsController < ApplicationController
   layout "portfol"
   access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
   def index
-    @portfolio_items = Portfol.all
+    @portfolio_items = Portfol.by_position
   end
 
   def angular
