@@ -18,3 +18,5 @@
 
 # Ignore my sercrets
 /config/secrets.yml
+
+.env
