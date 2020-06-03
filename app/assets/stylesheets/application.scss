@@ -208,3 +208,17 @@ body {
 .app-footer {
   color: white;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-image {
+  width: 100%;
+  border: 2px solid grey;
+}
