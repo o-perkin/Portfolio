@@ -36,7 +36,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
 h1, .h1,
@@ -133,6 +132,7 @@ h6, .h6 {
  * Footer
  */
 
+
 .mastfoot {
   color: rgba(255,255,255,.5);
 }
@@ -142,7 +142,7 @@ h6, .h6 {
  * Affix and center
  */
 
-@media (min-width: 90em) {
+@media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -164,11 +164,12 @@ h6, .h6 {
   }
 }
 
+
 @media (min-width: 62em) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
